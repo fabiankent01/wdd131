@@ -33,24 +33,23 @@ header {
   }
   
   .two-sides {
-    display: flex;
+    display: grid;
+    grid-template-columns: 70% 30%;
     width: 100%;
     height: 70vh; /* Adjust height as needed */
-  }
-  
-  .left-side {
-    flex: 0 0 70%;
+}
+
+.left-side {
     padding: 20px;
     box-sizing: border-box;
     background-color: #d3d3d3; /* Light grey */
-  }
-  
-  .right-side {
-    flex: 0 0 30%;
+}
+
+.right-side {
     padding: 20px;
     box-sizing: border-box;
     background-color: #ffffff; /* White */
-  }
+}
   
 footer {
     color: white;
