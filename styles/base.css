@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +8,7 @@
 
 body, html {
     margin: auto;
-    font-family: 'Belanosima';
+    font-family: "Afacad Flux", serif;
 }
 
 header{
@@ -22,7 +24,7 @@ header{
 
 header h1{
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 700;
     padding-bottom: 35px;
 }
 
@@ -61,10 +63,11 @@ nav ul>li>a:hover {
 nav ul>li>a{
     width: 100%;
     display: block;
-    padding: 10px 0;
+    padding: 5px 0;
     text-decoration: none;
     color: white;
-    font-weight: lighter;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 main{
@@ -93,7 +96,7 @@ main{
 .card h2:not(.profile h2){
     margin-top: auto;
     font-size: 19px;
-    font-weight: 100;
+    font-weight: 800;
     text-align: center;
     background-color: #8a0303;
     color: white;
@@ -110,7 +113,7 @@ main{
 .profile p{
     text-align: left;
     margin: 0 auto;
-    font-weight: 100;
+    font-weight: 500;
     white-space: normal;
     line-height: 1.5;
 }
@@ -131,7 +134,7 @@ main{
 }
 
 .image-container img{
-    height: 150px;
+    height: 180px;
     width: 150px;
     border-radius: 8px;
     object-fit: cover;
@@ -161,6 +164,7 @@ main{
 .location-image-container .figcaption {
     font-family: "Times new roman";
     font-style: italic;
+    font-size: 13px;
 } 
 
 .list{
@@ -185,4 +189,7 @@ footer p {
 
 #currentyear {
     color: white;
+}
+#lastModified {
+    color: yellow;
 }
