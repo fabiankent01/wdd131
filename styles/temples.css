@@ -108,7 +108,7 @@ footer p {
     }
 
     #menu::before {
-        content: "\f009";
+        content: "\f0c9";
         font-family: "Afacad Flux", serif;
         color: white;
         font-size: 2rem;
