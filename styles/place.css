@@ -117,6 +117,7 @@ footer p {
         top: 10%;
         left: 5%;
         padding: 0;
+        margin-left: -30px;
     }
     
     .heroleftside h2, .weatherimage {
@@ -161,6 +162,10 @@ footer p {
         bottom: 10%;
         right: 5%;
         padding: 0;
+        margin-right: -30px;
+    }
+    #lastModified {
+        color: yellow;
     }
 
 
