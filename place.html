@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 131 - Dynamic Web Fundamentals -Iwinosa Fabian Idahosa</title>
+        <meta name="author" content="Iwinosa Fabian Idahosa"/>
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Iwinosa Fabian Idahosa"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="'https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap'" rel="stylesheet">
+        <link rel="stylesheet" href="styles/place.css">
+        <script defer src="scripts/place.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Madagascar</h1>
+        </header>
+        <div class="green"></div>
+        <main>
+            <div class="hero">
+                <picture>
+                    <source srcset="images/hero.webp" media="(min-width: 1000px)">
+                    <source srcset="images/hero.webp" media="(min-width: 640px)">
+                    <img src="images/hero.webp" alt="Hero image" width="500" height="250">
+                </picture>
+
+                <div class="heroleftside">
+                    <h2>Data</h2>
+                    <ul>
+                        <li><strong>Area:</strong> 587,041 sq km</li>
+                        <li><strong>Population:</strong> 27,691,018</li>
+                        <li><strong>Capital:</strong> Antananarivo</li>
+                        <li><strong>Languages:</strong> Malagasy, French</li>
+                        <li><strong>Currency:</strong> Malagasy Ariary</li>
+                        <li><strong>Time Zone:</strong> UTC+3</li>
+                        <li><strong>Calling Code:</strong> +261</li>
+                        <li><strong>Internet TLD:</strong> .mg</li>
+                    </ul>
+                </div>
+
+                <div class="herorightside">
+                    <div class="weatherimage">
+                        <h2>Weather</h2>
+                        <img src="images/weather_day_cloud_cloudy_sky_icon.svg" alt="weather icon">
+                    </div>
+                    <ul>
+                        <li id="temperature"></li>
+                        <li id="conditions"></li>
+                        <li id="wind"></li>
+                        <li id="windchill"></li>
+                    </ul>
+                </div>
+
+            </div>
+        </main>
+
+        <footer>
+            <p>
+                <span id="currentyear">&copy;</span> 🌟iwinosa Fabian Idahosa 🌟Edo, Nigeria 
+            </p>
+            
+            <p id="lastModified">Last Modification: </p>
+        </footer>
+
+    </body>
+</html>
