@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 
 :root {
     --background-color: #227a4d;
@@ -164,6 +163,11 @@ footer p {
         padding: 0;
         margin-right: -30px;
     }
+
+    footer p::after {
+        content: "🌟";
+    }
+
     #lastModified {
         color: yellow;
     }
