@@ -10,7 +10,7 @@ body, html {
 }
 
 header{
-    background-color: #032d47;
+    background-color: #8a0303;
     color: white;
     padding: 10px;
     height: 120px;
@@ -28,7 +28,7 @@ header h1{
 main {
     width: 30%;
     margin: 2rem auto;
-    background-color: #032d4764;
+    background-color: #ccc
 }
 
 form {
@@ -103,7 +103,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #032d47;
+    background-color: #8a0303;
     padding: 10px;
     height: 120px;
 }
@@ -144,7 +144,7 @@ footer p {
     main {
         width: 50%;
         margin: 2rem auto;
-        background-color: #032d4764;
+        background-color: #ccc;
     }
 
     input[type="text"],
@@ -164,7 +164,7 @@ footer p {
     main {
         width: 60%;
         margin: 2rem auto;
-        background-color: #032d4764;
+        background-color: #ccc;
     }
 
     input[type="text"],
